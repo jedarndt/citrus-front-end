@@ -2,8 +2,18 @@
   text-align: center;
 }
 
+.Title{
+  font: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  /* color: linear-gradient(yellow, green);
+  background-color: linear-gradient(yellow, green);
+  background-color: -webkit-linear-gradient(#eee, #333); */
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
+  margin-bottom: 50px;
   pointer-events: none;
 }
 
@@ -24,8 +34,107 @@
   color: white;
 }
 
+.Form-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Form {
+  margin: 5px;
+}
+
+.Company-no-input {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Submit{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Switches{
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Switch1{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Company-summary{
+    font: sans-serif;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.Switch2{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.KeyParties{
+    font: sans-serif;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.Switch3{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Peps{
+    font: sans-serif;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.Switch4{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Authenticate{
+    font: sans-serif;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.Rodal{
+}
+
+.Citrus-data{
+  color: #000000;
+  font: sans-serif;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
 .App-link {
   color: #61dafb;
+  font-size: 15px;
 }
 
 @keyframes App-logo-spin {
